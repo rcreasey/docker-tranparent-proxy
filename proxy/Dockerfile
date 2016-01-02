@@ -38,4 +38,4 @@ RUN chmod 755 /sbin/entrypoint.sh
 EXPOSE 3128/tcp 3129/tcp
 
 VOLUME ["${SQUID_CACHE_DIR}"]
-CMD /sbin/entrypoint.sh
+ENTRYPOINT ["/sbin/entrypoint.sh"]
