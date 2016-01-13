@@ -1,5 +1,4 @@
 FROM phusion/baseimage
-MAINTAINER rcreasey@blizzard.com
 
 ENV SQUID_VERSION=3.3.8 \
     SQUID_CACHE_DIR=/var/spool/squid3 \

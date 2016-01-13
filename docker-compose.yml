@@ -1,0 +1,3 @@
+proxy:
+  build: proxy
+  net: "host"
